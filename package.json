@@ -1,0 +1,33 @@
+{
+  "name": "log4js-appender-oss",
+  "version": "1.0.0",
+  "description": "log4js appender for upload log files to aliyun oss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavin-hao/log4js-appender-oss.git"
+  },
+  "keywords": [
+    "log4js",
+    "file",
+    "appender",
+    "oss"
+  ],
+  "author": "gavin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavin-hao/log4js-appender-oss/issues"
+  },
+  "homepage": "https://github.com/gavin-hao/log4js-appender-oss#readme",
+  "dependencies": {
+    "ali-oss": "^4.10.1",
+    "date-format": "^1.1.0",
+    "streamroller": "^0.5.2"
+  },
+  "devDependencies": {
+    "log4js": "^2.3.5"
+  }
+}
