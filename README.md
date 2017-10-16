@@ -9,7 +9,7 @@ config log4js appender
 log4js.configure({
     appenders: {
         trace: {
-            type: './index', filename: '.log/trace.log', rollingTime: 30000, maxLogSize: 1048576,
+            type: 'log4js-appender-oss', filename: '.log/trace.log', rollingTime: 30000, maxLogSize: 1048576,
             oss: {
                 accessKeyId: 'your access key',
                 accessKeySecret: 'your access secret',
